@@ -1,0 +1,838 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url(img/Rectangle.png);
+    
+}
+
+/* Colors */
+
+.blc{
+color: #000;
+}
+
+.wht{
+    color: #fff;
+}
+
+/* Colors End */
+
+
+/* Header */
+.logo{
+    width: 223px;
+    height: 93,77px;
+    margin-left: 68px;
+    margin-top: 19px;
+}
+
+
+header{
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 22.5px;
+}
+.li-none{
+    list-style: none;
+    padding-right: 30px;
+    margin-top: 68px;
+}
+
+.text-none{
+    text-decoration: none;
+}
+
+.login-btn{
+    background-color: #54B8FF;
+    border-style: none;
+    padding-left: 29px;
+    padding-right: 29px;
+    height: 34px;
+    width: 98px;
+    margin-right: 52px;
+    margin-top: 55px;
+    
+}
+
+.login-btn:hover{
+    background-color: transparent;
+    color: #54B8FF;
+    border: 2px solid #54B8FF;
+}
+.sing-in{
+    margin-right: 24px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px;
+}
+.nav-links{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+/* Header End */
+
+
+
+/* Banner Section Start */
+.col-md-6 .banner_h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 23.5%;
+    color: #2F2B71;
+    letter-spacing: 0.235em;
+}
+
+.col-md-6 .h1_class{
+    font-weight: 700;
+    color: #5F596E;
+    font-size: 65px;
+    line-height: 81,55px;
+    margin-top: 14px;
+}
+
+.col-md-6 .p_class{
+    font-weight: 500;
+    color: black;
+    font-size: 20px;
+    line-height: 31,2px;
+    letter-spacing: 5%;
+    width: 473px;
+    margin-top: 30px;
+}
+
+.col-md-6 .btn{
+    background: linear-gradient(90deg, #54B8FF -1.36%, #54B8FF 105.62%);
+    box-shadow: 0px 0px 30px rgba(65, 135, 123, 0.25);
+    color: white;
+    width: 197px;
+    height: 56px;
+    border-radius: 0px;
+    margin-top: 40px;
+    
+}
+.bi-arrow-right{
+    margin-left: 10px;
+}
+
+
+
+.banner{
+    margin-top: 145px;
+}
+
+
+.col-md-6 .main{
+margin-left: 80px;
+margin-top: -80px;
+max-width:100%;height:auto;
+
+}
+.col-md-6 .icon1{
+    position: relative;
+    top: 100px;
+    right: -30px;
+}
+
+.col-md-6 .icon2{
+    position: relative;
+    top: -30px;
+    left: -10px;
+}
+.col-md-6 .icon3{
+    position: relative;
+    top: -100px;
+    right: -50px;
+}
+.col-md-6 .icon4{
+    position: relative;
+    top: -30px;
+    right: -130px;
+}
+
+.col-md-6 .icon5{
+    position: relative;
+    top: 120px;
+    right: -80px;
+}
+
+.banner_btn:hover{
+    color: #54B8FF !important;
+    background: white;
+    border: 2px solid #54B8FF;
+    
+}
+
+/* Banner Section End */
+
+
+
+/* Backgrounds Start */ 
+
+.background_banner1{
+    position: relative;
+    margin-left: 250px;
+    z-index: -1;
+}
+
+.background_banner2{
+    position: relative;
+    margin-top: -1350px;
+    margin-left: 530px;
+    z-index: -1;
+}
+
+.background_banner3{
+    float: left;
+
+}
+
+.background_banner4{
+    float: right;
+    position: relative;
+    right: 0;
+}
+
+.background_banner6{
+    float: right;
+    right: 0%;
+    top: 500px;
+    position: absolute;
+    z-index: -1;
+}
+
+.background_banner5{
+    float: left;
+    margin-top: 400px;
+    position: relative;
+    margin-left: -45px;
+}
+
+.background_banner7{
+
+    position: relative;
+    margin-left: 850px;
+
+}
+
+.teacher_section_background{
+    position: relative;
+    z-index: -1;
+    margin-top: -130px;
+    margin-left: -130px;
+    
+}
+
+.icons_section_background{
+    position: relative;
+    margin-top: -550px;
+}
+
+.course_card_background1{
+    margin-top: -700px;
+    z-index: -1;
+}
+
+.course_card_background2{
+    float: right;
+    margin-top: -120px;
+}
+
+.learning_background1{
+    position: absolute;
+    margin-top: 90px;
+    margin-left: -40px;
+    z-index: -1;
+  
+}
+
+.learning_background2{
+    transform: rotate(5deg);
+    position: absolute;
+    margin-top: 570px;
+    margin-left: -210px;
+    z-index: -1;
+}
+
+.newsletter_background{
+    position: absolute;
+    margin-left: 720px;
+    margin-top: -100px;
+    z-index: -1;
+}
+
+
+/* Backgrounds  End */
+
+
+/* Teacher Statistics Section Start */
+
+.white-space{
+    width: 344px;
+    height: 395px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card-top{
+    padding-left: 22px;
+    padding-top: 30px;
+}
+
+.card-text{
+    padding-left: 22px;
+    padding-top: 18px;
+}
+.card-text h5{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14,52px;
+    color: #FF733B;
+}
+.card-text h4{
+    margin-top: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24,2px;
+    color: #04004D;
+}
+
+.card-text h6{
+    margin-top: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17,81px;
+    color: #898E92;
+}
+
+.card-bottom p{
+    margin-left: 22px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16,94px;
+    color: #898E92;
+}
+
+.card-bottom span{
+    color: #04004D;
+}
+
+.card-bottom button{
+    width: 90px;
+    height: 24px;
+    margin-left: 40px;
+    background-color: #367166;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14,52px;
+    align-items: center;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.white-space2{
+    position: relative;
+    top: -490px;
+    right: -260px;
+    background-color: white;
+    width: 280px;
+    height: 340px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+.mt-100{
+    margin-top: 100px;
+}
+
+.white-space2 p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16,94px;
+    padding-left: 75px;
+    padding-top: 26px;
+    z-index: -1;
+}
+
+.white-space2 img{
+    padding-left: 75px;
+    padding-top: 25px;
+    
+}
+
+.others_card{
+display: inline-block;
+width: 102px;
+height: 64px;
+background-color: #FFF3D4;
+font-family: 'Inter', sans-serif;
+font-weight: 600;
+font-size: 20px;
+border-radius: 4px;
+color: #FAB408;
+padding-left: 21px;
+margin-left: 34px;
+margin-top: 30px;
+padding-top: 14px;
+
+}
+
+.others_card span{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 8px;
+    float: left;
+}
+
+.it_sector{
+    display: inline-block;
+    width: 102px;
+    height: 64px;
+    background-color: #DCFFEE;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 4px;
+    color: #19BF6F;
+    padding-left: 21px;
+    margin-left: 8px;
+    margin-top: 30px;
+    padding-top: 14px;
+    
+
+}
+
+
+.it_sector span{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 8px;
+    float: left;
+    
+}
+    
+
+.white-space3{
+    position: relative;
+    width: 220px;
+    height: 70px;
+    background-color: #FFFDFA;
+    top: -800px;
+    right: -80px;
+    z-index: -1;
+    border-radius: 14px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+
+
+.white-space3 img{
+    
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 13px;
+    
+   
+    
+}
+
+.white-space3 .cong{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    
+}
+
+.white-space3 p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: -15px;
+    padding-left: 58px;
+    color: #898E92;
+}
+
+.col-md-6 .teacher_h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 62px;
+    color: #04004D;
+    width: 529px;
+}
+
+.col-md-6 .teacher_p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #336C61;
+    margin-top: 26px;
+    width: 425px;
+}
+
+.col-md-6 .teacher_h4{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #336C61;
+    margin-top: 47px;
+}
+
+.teacher_arrow{
+    
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.col-md-6 .margin{
+    margin-left: 70px;
+}
+
+.teacher_h4 a{
+    text-decoration: none;
+    color: #336C61;
+}
+
+/* Teacher Statistics Section End */
+
+
+
+/* Icons Section Start */
+
+.icon_img{
+    width: 84px;
+    height: 84px;
+}
+
+.icons_h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    color: #1E1E1E;
+    margin-top: 40px;
+    
+}
+
+.icons_p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    size: 16px;
+    line-height: 28px;
+    color: #757575;
+    margin-top: 18px;
+    width: 300px;
+    margin-left: 25px;
+    
+   
+}
+
+.icons_margin{
+    padding-top: 130px;
+}
+
+/* Icons Section End */
+
+
+
+/* Course Section Start */
+
+.course_margin{
+    margin-top: 208px;
+}
+
+.course_h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 35px;
+    color: #000000;
+}
+
+.course_h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #BDBDBD;
+}
+
+
+.course_card_margin{
+    margin-top: 60px;
+}
+
+.course_card_whitebg{
+    background-color: white;
+    height: 160px;
+    margin-top: -20px;
+    margin-right: 6px;
+}
+
+.course_card_whitebg img{
+    width: 350px;
+}
+
+.course_card_h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 25,5px;
+    color: #000000;
+}
+
+.course_card_h6{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #878787;
+}
+
+.course_card_icon1{
+    max-width: 17px;
+    max-height: 16px;
+    margin-left: 35px;
+}
+
+.course_card_icon2{
+    max-width: 12px;
+    margin-left: 27px;
+    margin-right: 3px;
+    
+}
+
+.course_card_space_h3{
+    margin-left: 13px;
+    padding-top: 35px; 
+}
+
+.course_card_space_h6{
+    margin-left: 13px;
+    margin-top: 9px;
+}
+
+.course_card_space_p{
+    margin-top: 30px;
+    margin-left: 33px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.course_card_space_h3 a{
+    text-decoration: none;
+    color: #000000;
+}
+
+/* Course Section End */
+
+
+/* Learning Platform Section Start */
+.learning_margin{
+    padding-top: 240px;
+}
+.learning_h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 3%;
+    color: #2F2B71;
+    opacity: 80%;
+}
+
+.learning_h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 72px;
+    color: #101130;
+}
+.learning_p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #67687B;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    width: 400px;
+}
+
+.learning_button{
+    background-color: #54B8FF;
+    width: 181px;
+    height: 56px;
+    border: none;
+    color: white;
+}
+
+.learning_img{
+    width: 480px;
+    margin-top: 170px;
+    margin-left: 40px;
+}
+
+.learning_button:hover{
+    color: #54B8FF;
+    background-color: white;
+    border: 2px solid #54B8FF;
+
+}
+
+
+
+/* Learning Platform Section End */
+
+
+/* Newsletter Section Start */
+
+.newsletter_img{
+    width: 100%;
+    margin-top: 180px;
+    
+}
+
+.newletter_h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #8785AA;
+    letter-spacing: 6px;
+    
+    
+}
+
+.newsletter_h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 52px;
+    color: #1B1B1B;
+    width: 287px;
+    margin-top: 0px;
+
+}
+
+.newsletter_email{
+    width: 330px;
+    height: 75px;
+    border: none;
+}
+
+.newsletter_btn{
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: #12294B;
+    box-shadow: 0px 8px 15px rgba(72, 72, 138, 0.12);
+    position: relative;
+    margin-left: -70px;
+    margin-top: 40px;
+    
+    
+}
+
+
+
+.newsletter_div2{
+    position: relative;
+    margin-top: -320px;
+    margin-left: 100px;
+
+}
+
+
+/* Newsletter Section End */
+
+
+
+
+/* Footer Section Start */
+
+.footer_margin{
+    margin-top: 230px;
+}
+
+.footer_h3{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25,1px;
+    color: #1C1C1D;
+    padding-bottom: 40px;
+}
+
+.footer_h6{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7A7A7E ;
+    padding-bottom: 10px;
+}
+
+.footer_h6 a{
+    text-decoration: none;
+    color: #7A7A7E ;
+}
+
+.footer_h6 a:hover{
+    color: black;
+
+}
+
+.social_media{
+    margin-left: 50px;
+}
+
+/* Footer Section End */
+
+
+
+/* Source Code Start */
+
+.source_code{
+    margin-top: 20px;
+    background-color: #ADE5E5;
+    color: black;
+    font-size: 13px;
+    text-align: center;
+}
+
+.source_code a{
+    text-decoration: none;
+}
+
+/* Source Code End */
+
